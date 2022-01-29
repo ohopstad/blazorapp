@@ -1,0 +1,50 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<PageTitle>TMDB api</PageTitle>
+
+<h1>TMDB data</h1>
+
+<p>fetch data?</p>
+
+@if (movies == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>released</th>
+                <th>title</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in movies)
+            {
+                <tr>
+                    <td>@movie.release_date.ToShortDateString()</td>
+                    <td>@movie.original_title</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Movie[]? movies;
+
+    protected override async Task OnInitializedAsync()
+    {
+        movies = await Http.GetFromJsonAsync<Movie[]>("https://api.themoviedb.org/3/movie/500?api_key=1422303e78dc4243889e6e549813ff6d");
+    }
+
+    public class Movie
+    {
+        public DateTime release_date { get;  }
+
+        public string? original_title { get;  }
+
+    }
+}
