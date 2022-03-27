@@ -8,6 +8,105 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1279812806,
+        "Kind": "Components.Component",
+        "Name": "git_blazor.App",
+        "AssemblyName": "git-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "git_blazor.App"
+        }
+      },
+      {
+        "HashCode": 1205722421,
+        "Kind": "Components.Component",
+        "Name": "git_blazor.App",
+        "AssemblyName": "git-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "git_blazor.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "git_blazor.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1605494179,
+        "Kind": "Components.Component",
+        "Name": "git_blazor.Pages.Counter",
+        "AssemblyName": "git-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "git_blazor.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -333906490,
+        "Kind": "Components.Component",
+        "Name": "git_blazor.Pages.Counter",
+        "AssemblyName": "git-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "git_blazor.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "git_blazor.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 863690409,
+        "Kind": "Components.Component",
+        "Name": "git_blazor.Pages.Index",
+        "AssemblyName": "git-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "git_blazor.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1664317858,
+        "Kind": "Components.Component",
+        "Name": "git_blazor.Pages.Index",
+        "AssemblyName": "git-blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "git_blazor.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "git_blazor.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 768223111,
         "Kind": "Components.Component",
         "Name": "git_blazor.Shared.SurveyPrompt",
@@ -186,171 +285,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "git_blazor.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 863690409,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.Index",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1664317858,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.Index",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "git_blazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1605494179,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.Counter",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -333906490,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.Counter",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "git_blazor.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1668389734,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.FetchData",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -926760601,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.FetchData",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "git_blazor.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -36488111,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.FetchTMDB",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchTMDB"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.FetchTMDB"
-        }
-      },
-      {
-        "HashCode": -711875032,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.Pages.FetchTMDB",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "git_blazor.Pages.FetchTMDB"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.Pages.FetchTMDB",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1279812806,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.App",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.App"
-        }
-      },
-      {
-        "HashCode": 1205722421,
-        "Kind": "Components.Component",
-        "Name": "git_blazor.App",
-        "AssemblyName": "git-blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "git_blazor.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "git_blazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13689,11 +13623,6 @@
     {
       "FilePath": "/Users/potato/git/git-blazor/Pages/Index.razor",
       "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "/Users/potato/git/git-blazor/Pages/FetchTMDB.razor",
-      "TargetPath": "Pages\\FetchTMDB.razor",
       "FileKind": "component"
     },
     {

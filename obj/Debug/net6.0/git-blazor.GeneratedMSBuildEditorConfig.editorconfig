@@ -30,10 +30,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/potato/git/git-blazor/Pages/FetchTMDB.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hUTURCLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/potato/git/git-blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
